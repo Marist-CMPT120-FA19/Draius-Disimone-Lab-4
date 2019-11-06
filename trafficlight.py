@@ -8,7 +8,7 @@ def main():
 	shape= Rectangle(Point(2,20), Point(40,100))
 	shape.setOutline("black")
 	shape.draw(win)
-	shape.setFill("black")
+	shape.setFill("white")
 	#red light
 	red=Circle(Point(20,40),8)
 	red.setOutline("black")
